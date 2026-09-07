@@ -2,7 +2,6 @@ pico-8 cartridge // http://www.pico-8.com
 version 43
 __lua__
 --init file
-
 function _init()
 --	intro()
 	state = "menu"
@@ -373,6 +372,15 @@ function intro()
 end
 -->8
 --level data
+
+--sprite dark
+--65
+
+--sprite light
+--81
+
+--sprite goal
+--66
 
 lvl_strs = {
 -- 1 token
