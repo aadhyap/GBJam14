@@ -8,7 +8,7 @@ function _init()
 	poke( 0x5f2e, 1 ) --enable hidden colors
 	pal( {[4]=143} ,1 )
 	pal( {[2]=141} ,1 )
-	poke(0x5f5c,255)
+	poke(0x5f5c,255) --remove repeat buttons
 	state = "menu"
 	--music(16,0,12)
 
@@ -264,7 +264,7 @@ function update_player()
  // jump
 
  // wall jump
- if (wall_dir != 0) then
+ if btnp(⬆️) and (wall_dir != 0) then
  			
     p.dy = -gravity
     p.dx = -wall_dir * 0.8 * 2
