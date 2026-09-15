@@ -254,7 +254,7 @@ function update_player()
 	
 --wall jump -----------
 	local wall_dir = 0
- if up and col(p.x+8, p.y+7) then
+ if up and col(p.x+7.5, p.y+7) then
     wall_dir = 1
  elseif up and col(p.x-0.8, p.y+7) then
     wall_dir = -1
