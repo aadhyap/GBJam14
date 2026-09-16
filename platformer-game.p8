@@ -291,7 +291,8 @@ function update_player()
  // jump
 
  // wall jump
- if btnp(⬆️) and (wall_dir != 0) then
+ if btnp(⬆️) and (wall_dir != 0)
+ and not p.g then
  			animate(17,20,0.01)
     p.dy = -gravity
     p.dx = -wall_dir * 2 * 2
@@ -424,11 +425,9 @@ function checkbounds()
 					spawn()
 			end
 	else
-
 		if p.y >= 115 then
 				spawn()
 			end
-			
 	end
 end
 
