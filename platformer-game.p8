@@ -420,7 +420,7 @@ end
 --level restart---------------
 function checkbounds()
 	
-	if levelnum < 7 then
+	if levelnum <= 7 then
 		if p.y >= 120 then	
 					spawn()
 			end
