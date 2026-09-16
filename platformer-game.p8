@@ -425,7 +425,7 @@ function checkbounds()
 					spawn()
 			end
 	else
-		if p.y >= 115 then
+		if p.y >= 109 then
 				spawn()
 			end
 	end
