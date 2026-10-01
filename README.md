@@ -10,7 +10,7 @@ Between the Game Boy-inspired visual restrictions and PICO-8's limited cartridge
 
 ## Why PICO-8?
 
-PICO-8 intentionally gives developers a very small virtual console to work with. Code, sprites, maps, sound, and other resources all have to fit inside a limited cartridge.
+For a fun mind game challenge. Having to code and make games like it was done in the old days was inspired after I listened to a 6 hour documentary on the history of games hahaha. PICO-8 intentionally gives developers a very small virtual console to work with. Code, sprites, maps, sound, and other resources all have to fit inside a limited cartridge.
 
 Code itself has a **token budget**, so adding another mechanic isn't completely free. As the project grew, I had to continually consider how much code each feature required and whether existing systems could be reused or simplified.
 
